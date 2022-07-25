@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+header{
+    width: 100vw;
+    padding: 1.5% 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header #logo a{
+    color: rgb(136, 211, 136);
+    text-decoration: none;
+}
+
+header nav #links ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+header nav #links ul li a{
+    text-decoration: none;
+    color: grey;
+}
+header nav #links ul li a:hover{
+    color: rgb(27, 186, 27);
+    transition: 0.5s;
+}
+header .container #button button{
+    width: 100px;
+    border-radius: 15px;
+}
+
+#intro .img{
+    width: 100vw;
+    height: 65vh;
+    background-image: url(https://d1hjkbq40fs2x4.cloudfront.net/2019-04-17/files/wide-angle-lenses-1293_t.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    
+}
+#intro .container{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+}
+#intro .container .button button{
+    border-radius: 20px !important;
+    width: 160px;
+    height: 40px;
+} 
+#intro .container .button button:hover{
+    border-color: rgb(4, 171, 4) !important;
+}
+#intro .container h2{
+    font-size: 25px;
+} 
+#intro .container h1{
+    font-size: 50px !important ;
+}
+#info{
+    width: 100vw;
+    background-color: white;
+    padding: 4% 0px;
+}
+#info .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#info .container #image img{
+    width: 100%;
+}
+#counts{
+    width: 100vw;
+    background-color: rgb(236, 230, 230);
+}
+#counts .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+#counts .container div{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#why-us{
+    background-color: white;
+}
+#why-us .container{
+    width: 100vw;
+    padding: 4% 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#why-us .container #why-mentor{
+    background-color: #5fcf80;
+    border-radius: 7px;
+    color: white;
+    padding: 3% 3%;
+    display: flex;
+    flex-direction: column;
+}
+#why-us .container #why-mentor #button{
+    display: flex;
+    justify-content: center;
+}
+#why-us .container #why-mentor #button a{
+    border-radius: 20px;
+    width: 180px !important;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);;
+}
+#why-us .container #why-mentor #button a:hover{
+    background-color: white;
+    color: #48d76e;
+    transition: 0.7s;
+}
+
+#why-us .container #iconboxes #firstbox,#secondbox,#thirdbox{
+    border: 1px solid gainsboro;
+    height: 90%;
+}
+#why-us .container #iconboxes #firstbox #icon i,#secondbox #icon i,#thirdbox #icon i{
+    font-size: 30px
+}
+
+#features{
+    width: 100vw;
+    background-color: white;
+    padding: 5% 0px;
+}
+
+#features .container #thirdrow #box #box-1, #box #box-2, #box #box-3, #box #box-4{
+    width: 90%;
+    border: 1px solid gainsboro;
+    height: 60px;
+    margin: 10px 0;
+}
+#features .container #secondrow #box #box-1, #box #box-2, #box #box-3, #box #box-4{
+    width: 90%;
+    border: 1px solid gainsboro;
+    height: 60px;
+    margin: 10px 0;
+}
+#features .container #firstrow #box #box-1, #box #box-2, #box #box-3, #box #box-4{
+    width: 90%;
+    border: 1px solid gainsboro;
+    height: 60px;
+    margin: 10px 0;
+}
+#box-1:hover{
+    border-color: #48d76e !important;
+    transition:0.3s;
+}
+#box-2:hover{
+    border-color: #48d76e !important;
+        transition:0.3s;
+}
+#box-3:hover{
+    border-color: #48d76e !important;
+        transition:0.3s;
+}
+#box-4:hover{
+    border-color: #48d76e !important;
+        transition:0.3s;
+}
+#box-1:hover a{
+    color: #48d76e !important;
+        transition:0.3s;
+}
+#box-2:hover a{
+    color: #48d76e !important;
+        transition:0.3s;
+}
+#box-3:hover a{
+    color: #48d76e !important;
+        transition:0.3s;
+}
+#box-4:hover a{
+    color: #48d76e !important;
+        transition:0.3s;
+}
+
+#courses-info{
+    background-color: white;
+}
+
+#courses-info .container #courses #web #inside-web #name-price #name{
+    padding: 0 10px;
+    height: 27px;
+    background-color: #48d76e;
+    color: white;
+    text-align: center;
+}
+#courses-info .container #courses #marketing #inside-marketing #name-price #name{
+    padding: 0 10px;
+    height: 27px;
+    background-color: #48d76e;
+    color: white;
+    text-align: center;
+}
+#courses-info .container #courses #content #inside-content #name-price #name{
+    padding: 0 10px;
+    height: 27px;
+    background-color: #48d76e;
+    color: white;
+    text-align: center;
+}
+#courses-info .container #courses #web #inside-web{
+    border: 1px solid gainsboro;
+}
+#courses-info .container #courses #marketing #inside-marketing{
+    border: 1px solid gainsboro;
+}
+#courses-info .container #courses #content #inside-content{
+    border: 1px solid gainsboro;
+}
+#courses-info .container #courses #web #inside-web #title-content #title:hover a{
+    color: #48d76e !important;
+    transition: 0.5s;
+}
+#courses-info .container #courses #marketing #inside-marketing #title-content #title:hover a{
+    color: #48d76e !important;
+    transition: 0.5s;
+}
+#courses-info .container #courses #content #inside-content #title-content #title:hover a{
+    color: #48d76e !important;
+    transition: 0.5s;
+}
+#courses-info .container #courses #web #inside-web,#marketing #inside-marketing,#content #inside-content{
+    width: 90%;
+}
+
+#mentors{
+    background-color: white;
+    padding: 5% 0;
+}
+#mentors .container{
+    display: flex;
+}
+#mentors .container #akif #inside-akif,#simuzer #inside-simuzer,#babaxan #inside-babaxan{
+    border: 1px solid gainsboro;
+    width: 90%;
+}
+
+footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+footer .container nav #links ul li:hover a{
+    color: #48d76e !important;
+}
+footer .container nav #services ul li:hover a{
+    color: #48d76e !important;
+}
+
+@media screen and (max-width: 992px){
+    header .container nav{
+        display: none !important;
+    } 
+    
+}
